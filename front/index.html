@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src * data: blob: ws: wss: gap://ready file://*;
+    style-src * 'unsafe-inline'; 
+    script-src * 'unsafe-inline' 'unsafe-eval';
+    connect-src * ws: wss:;">
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Forms</title>
+    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+</head>
+<body>
+    <button id="nodeForm" style="background-color: rgb(138, 191, 80);" class="btn btn-dark" onclick="return go2NodeForm()">Node Form</button>
+    <button id="goForm" style="background-color: rgb(27, 169, 207);" class="btn btn-dark"  onclick="return go2GoForm()">Go Form</button>
+
+    <script>
+        function go2NodeForm(){
+            fetch(`http://localhost/node/`, {
+                method: 'POST',
+                mode: 'no-cors',
+                referrer: "",
+                redirect: 'follow'
+            }).then(response => {
+                if(response.redirected) {
+                    window.location.href = response.url;
+                }
+            });
+        }
+
+        function go2GoForm(){
+            fetch(`http://localhost/go/`, {
+                method: 'POST',
+                mode: 'no-cors',
+                referrer: "",
+                redirect: 'follow'
+            }).then(response => {
+                if(response.redirected) {
+                    window.location.href = response.url;
+                }
+            });
+        }
+    </script>
+</body>
+</html>
