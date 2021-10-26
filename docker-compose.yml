@@ -1,0 +1,19 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  nginx:
+    container_name: nginx
+    ports:
+      - "80:80"
+    image: "web-nginx"
+  redis:
+    ports:
+      - "6379:6379"
+    image: "redis"
+  go:
+    ports:
+      - "8080:8080"
+    image: "go-back"
+  node:
+    ports:
+      - "3000:3000"
+    image: "node-back"
