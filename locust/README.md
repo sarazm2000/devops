@@ -9,7 +9,7 @@ Actually we should consider the situation of eximination that this images and te
 ![alt text](https://github.com/sarazm2000/devops/blob/main/img/test3.png)
 ![alt text](https://github.com/sarazm2000/devops/blob/main/img/test4.png)
 
-<br /><br /><br />
+<br/><br/><br/>
 
 Finally in differet tests with different rates, at every examination we run `htop` command to watch the **Memory** and **CPU** every moment. Image of one of them is shown bellow.
 
