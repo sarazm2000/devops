@@ -8,7 +8,7 @@ Actually we should consider the situation of eximination that this images and te
 ![alt text](https://github.com/sarazm2000/devops/blob/main/locust/img/test2.png)
 ![alt text](https://github.com/sarazm2000/devops/blob/main/locust/img/test3.png)
 ![alt text](https://github.com/sarazm2000/devops/blob/main/locust/img/test4.png)
-![alt text](https://github.com/sarazm2000/devops/blob/main/locust/img/static1.png)
+<!-- ![alt text](https://github.com/sarazm2000/devops/blob/main/locust/img/static1.png) -->
 
 <br/><br/><br/>
 
