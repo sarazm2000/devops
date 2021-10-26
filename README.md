@@ -49,7 +49,6 @@ And There is no need to use this file. You just need to run **run.sh** bash file
 
 ## Run Project
 To run the project just we should do these steps:
-`docker pull $image_name`
-1. Docker Pull Images (web-nginx, go-back, node-back, redis)
+1. Docker Pull Images (web-nginx, go-back, node-back, redis) `docker pull $image_name`
 2. just run **run.sh** bash file by running this line of code in terminal:
 `bash run.sh`
