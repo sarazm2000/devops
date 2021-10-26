@@ -1,7 +1,7 @@
 # devops
 Web-HW1
 
-** TEAM MEMBERS **
+## TEAM MEMBERS
 
 |Name       |
 |:----------:|
@@ -9,6 +9,6 @@ Web-HW1
 |*Sina Elahimanesh*|
 |*Darioush Amiri*|
 
-
-
+## Project Structure
+ساختار این پروژه بدین گونه است که ابتدا
 
