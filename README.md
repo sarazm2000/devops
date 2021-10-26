@@ -1,6 +1,14 @@
 # devops
 Web-HW1
 
-Sara Zahedi 
-Sina Elahimanesh
-Darioush Amiri
+** TEAM MEMBERS **
+
+|Name       |
+|:----------:|
+|*Sara Zahedi*|
+|*Sina Elahimanesh*|
+|*Darioush Amiri*|
+
+
+
+
