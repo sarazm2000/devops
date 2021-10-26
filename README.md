@@ -35,7 +35,7 @@ Each section of our project **has been dockerized** with Dockerfiles as shown be
 - web-nginx Image -> this image has nginx and its configurations on an alpine based system. Its port is **80**.
 - go-backend Image -> this image has go backend files and modules and its port is **8080**.
 - node-backend Image -> this image has node backend files and its port is **3000**.
-- redis Image -> redis is run on port **6379**.
+- redis Image -> redis will be run on port **6379**.
 
 ## Docker Compose
 The whole project and docker images has been dockerized with docker compose.
