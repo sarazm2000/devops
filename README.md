@@ -37,3 +37,19 @@ Each section of our project **has been dockerized** with Dockerfiles as shown be
 - node-backend Image -> this image has node backend files and its port is **3000**.
 - redis Image -> redis is run on port **6379**.
 
+## Docker Compose
+The whole project and docker images has been dockerized with docker compose.
+The yml file is in github and project has been dockerzied with this file.
+
+## Scripts
+Because we did not have public ip, so to test this project using Docker Compose we just made a creativness method.
+We wrote a bash file to set a domain (**web.hw1**) in the directory **/etc/** and file **hosts**. This file add the whole docker compose IP to OS hosts as a new domain. and finally with this method our project is ran on domain **web.hw1** in the system and with the power of docker composer project has been OS Independant (Except Windows :)). 
+So, There is a **setip.sh** bash file that is for setting ip and domain.
+And There is no need to use this file. You just need to run **run.sh** bash file to docker compse and also set ip and project after running this bash file will be fully up.
+
+## Run Project
+To run the project just we should do these steps:
+`docker pull $image_name`
+1. Docker Pull Images (web-nginx, go-back, node-back, redis)
+2. just run **run.sh** bash file by running this line of code in terminal:
+`bash run.sh`
